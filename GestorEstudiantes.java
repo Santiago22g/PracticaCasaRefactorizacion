@@ -57,7 +57,7 @@ public class GestorEstudiantes {
         if (estudiantes.contains(nombre)) {
             logger.log(Level.INFO, "Estudiante encontrado: {0}, Calificación: {1}", new Object[]{nombre, calificaciones.get(nombre)});
         } else {
-        	logger.log(Level.WARNING,"Estudiante no encontrado: {0}",nombre)
+        	logger.log(Level.WARNING,"Estudiante no encontrado: {0}",nombre);
         }
     }
 }
